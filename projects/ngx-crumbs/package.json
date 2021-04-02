@@ -1,0 +1,27 @@
+{
+  "name": "ngx-crumbs",
+  "version": "1.0.0",
+  "description": "An ultimate breadcrumbs service for Angular",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henczi/ngx-crumbs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/henczi/ngx-crumbs/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": "^11.1.2",
+    "@angular/core": "^11.1.2"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "keywords": [
+    "ngx-crumbs",
+    "angular",
+    "ng",
+    "breadcrumb",
+    "breadcrumbs"
+  ]
+}
