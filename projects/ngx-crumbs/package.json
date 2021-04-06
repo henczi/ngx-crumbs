@@ -1,6 +1,6 @@
 {
   "name": "ngx-crumbs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ultimate breadcrumbs service for Angular",
   "license": "MIT",
   "repository": {
@@ -11,8 +11,10 @@
     "url": "https://github.com/henczi/ngx-crumbs/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^11.1.2",
-    "@angular/core": "^11.1.2"
+    "@angular/common": ">=10.0.0",
+    "@angular/core": ">=10.0.0",
+    "@angular/router": ">=10.0.0",
+    "rxjs": "^6.6.0"
   },
   "dependencies": {
     "tslib": "^2.0.0"

@@ -1,9 +1,9 @@
-import { ActivatedRoute, ActivatedRouteSnapshot, NavigationEnd, Router, UrlSegment } from '@angular/router';
+import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { NgxCrumbOptions } from './ngx-crumb-options';
 import { NgxCrumbItem } from './ngx-crumb-item';
 import { Injectable, OnDestroy } from '@angular/core';
 import { BehaviorSubject, Subscription } from 'rxjs';
-import { distinctUntilChanged, filter, switchMap } from 'rxjs/operators';
+import { distinctUntilChanged, filter } from 'rxjs/operators';
 import { createAbsoluteLink, getActivatedRoutePath } from './utils';
 
 @Injectable({

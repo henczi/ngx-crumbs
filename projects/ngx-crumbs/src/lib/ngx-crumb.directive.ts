@@ -1,5 +1,5 @@
 import { Directive, Input, OnChanges, OnDestroy, OnInit, SimpleChanges } from '@angular/core';
-import { ActivatedRoute, ActivatedRouteSnapshot, Router, UrlSegment } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { NgxCrumbsService } from './ngx-crumbs.service';
 import { createAbsoluteLink, getActivatedRoutePath } from './utils';
 
