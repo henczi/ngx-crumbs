@@ -1,6 +1,6 @@
 {
   "name": "ngx-crumbs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An ultimate breadcrumbs service for Angular",
   "license": "MIT",
   "repository": {
@@ -14,7 +14,7 @@
     "@angular/common": ">=10.0.0",
     "@angular/core": ">=10.0.0",
     "@angular/router": ">=10.0.0",
-    "rxjs": "^6.6.0"
+    "rxjs": ">=6.6.0"
   },
   "dependencies": {
     "tslib": "^2.0.0"
