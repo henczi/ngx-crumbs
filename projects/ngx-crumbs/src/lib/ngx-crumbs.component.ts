@@ -2,6 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { NgxCrumbsService } from './ngx-crumbs.service';
 
 @Component({
+  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'ngx-crumbs',
   template: `
   <div class="ngx-crumbs {{containerClass}}">
