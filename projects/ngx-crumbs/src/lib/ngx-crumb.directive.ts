@@ -4,7 +4,7 @@ import { NgxCrumbsService } from './ngx-crumbs.service';
 import { createAbsoluteLink, getActivatedRoutePath } from './utils';
 
 @Directive({
-  // tslint:disable-next-line: directive-selector
+  // eslint-disable-next-line @angular-eslint/directive-selector
   selector: 'ngx-crumb'
 })
 export class NgxCrumbDirective implements OnInit, OnChanges, OnDestroy {
